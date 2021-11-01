@@ -10,6 +10,6 @@ public class PersonController {
 
     @GetMapping
     public String getBook() {
-        return "API Teste - CSF S2";
+        return "API Test - CSF S2";
     }
 }
