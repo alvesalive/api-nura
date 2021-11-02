@@ -1,10 +1,7 @@
 package alves.digital.api.entity;
 
 import alves.digital.api.enums.PhoneType;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import net.bytebuddy.dynamic.loading.InjectionClassLoader;
 
 import javax.persistence.*;
