@@ -1,5 +1,6 @@
 package alves.digital.api.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class HomeController {
 
-
+    @GetMapping
     private String homeMessage(){
         return "API - Nura [in construction]\n " +
                 "CSF - S2\n " +
